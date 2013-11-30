@@ -1,0 +1,10 @@
+
+#ifndef DHT11_H_
+#define DHT11_H_
+
+#include <stdio.h>
+
+extern int8_t dht11_gettemperature();
+extern int8_t dht11_gethumidity();
+
+#endif
